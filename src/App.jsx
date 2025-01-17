@@ -26,6 +26,9 @@ function App() {
       },
       {
         path: 'portfolio', element: <Portfolio />
+      },
+      {
+        path: '*', element: <Home />
       }
       ]
     }
